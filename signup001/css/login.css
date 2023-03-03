@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(69, 9, 121, 1) 35%, rgba(0, 194, 255, 1) 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 179px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+#submit-btn {
+    background-color: rgb(9, 120, 211);
+    border: none;
+    color: white;
+    padding: 14px 135px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+#submit-btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    justify-content: center;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    width: 400px;
+    height: 360px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.inner h1,
+p {
+    display: flex;
+    margin-left: 55px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+
+
+.fa-envelope {
+    display: block;
+    position: absolute;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 14px;
+}
+
+.fa-lock {
+    display: block;
+    position: absolute;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 62px;
+}
+
+
+#email {
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    padding: 10px 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(250, 247, 247);
+    outline: none;
+}
+
+#email::placeholder {
+    text-align: center;
+    color: rgb(235, 231, 231);
+}
+
+#email:focus {
+    text-align: center;
+    border: 1px solid rgb(3, 233, 183);
+}
+
+#password {
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    padding: 10px 3px;
+    border-radius: 10px;
+    border: 1px solid rgb(250, 247, 247);
+    outline: none;
+}
+
+#password::placeholder {
+    text-align: center;
+    color: rgb(235, 231, 231);
+}
+
+#password:focus {
+    text-align: center;
+    border: 1px solid rgb(3, 233, 183);
+}
+
+#rememberme {
+    margin-top: 5px;
+}
+
+
+
+.outer {
+    text-align: center;
+    justify-content: center;
+}
+
+.signup-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.signup-link label {
+    margin-right: 6px;
+}
