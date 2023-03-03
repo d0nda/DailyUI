@@ -9,9 +9,9 @@ Create a sign up page, modal, form, or app screen related to signing up for some
 ### Screenshot
 Sign In - Screen
 ![Mobile Screenshot](./images/socio_signin.png "Sign In Screenshot")
-Desktop
+Sign Up -Screen
 ![Desktop Screenshot](./images/socio_signup.png "Sign Up Screenshot")
 
 ### Links
 
-- Live Site URL: (https://d0nda.github.io/order-summary/)
+- Live Site URL: ()
